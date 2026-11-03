@@ -1,0 +1,19 @@
+{
+  "name": "dela",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "assets": "capacitor-assets generate --iconBackgroundColor \"#0D0D0F\" --splashBackgroundColor \"#0D0D0F\" --splashBackgroundColorDark \"#0D0D0F\"",
+    "sync": "cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/local-notifications": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.0"
+  }
+}
